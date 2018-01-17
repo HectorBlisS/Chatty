@@ -39,7 +39,8 @@ The starter-code provides every resource you need to style your Chat. Please, pu
 
 ## Introduction: How hard is to develop a backend?
 
-We have heard about servers, databases, security, may be we've heard about devOps or hostings, heard that if you want to make any website you need a server, you need to be concern about the safety of your data, and we also have heard that manage a database is hard, is complicated and troubling, that you need an expert on data science or backend to ensure your data will be secure, and if you want to learn to make all this you need to be a nerd or some kind of super human and invest several years to learn all the stuff needed to become a backend developer.
+We have heard about servers, databases, security, may be we've heard about devOps or hostings, heard that; if you want to make any website you need a server, you need to be concern about the safety of your data, and we also have heard that manage a database is hard, is complicated and troubling, that you need an expert on data science or backend to ensure your data will be secure, and if you want to learn to make all this you need to be a nerd or some kind of super human and invest several years to learn all the stuff needed to become a backend developer.
+
 
 And it's true. )=
 
@@ -54,7 +55,7 @@ But the truth, today there is many tools to accelerate your success, and we can 
 
 ## 1.- Connect our App to a Firebase Project
 
-We are going to use Firebase, Firebase is a backend as a service is one of the Google's tools in the Cloud, and it offers a lot of options to connect our web apps or mobile apps to services in the cloud, services that are a substitution of things you normally need a server (computer in some place in the world), with a backend written in any language conditioning for serves like PHP, RUBY, PYTHON, JAVA, C#, GO or many others.
+We are going to use Firebase, Firebase is a backend as a service is one of the Google's tools in the Cloud, and it offers a lot of options to connect our web apps or mobile apps to services in the cloud, services that are a substitution of things you normally need a server (computer in some place in the world), with a backend written in any language conditioned for serves like PHP, RUBY, PYTHON, JAVA, C#, GO or many others.
 
 ### Create the Firebase Project
 
@@ -177,7 +178,7 @@ We are specifying the ref of our database from what we want to listen, and we wa
 Firebase is a shortcut to develop an app the fastest, if you are thinking about performance and number of clients in real-time, remember Shazam and its thousands of users?, well, Shazam is using Firebase.
 
 ## Bonus
-You can read the Firebase documentation to learn hot to deploy our app into a public free domain.
+You can read the Firebase documentation to learn how to deploy our app into a public free domain.
 [How to deploy on Firebase](https://firebase.google.com/docs/hosting/deploying?hl=es-419)
 
 ## Extra Resources

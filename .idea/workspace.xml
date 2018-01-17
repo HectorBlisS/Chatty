@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34fbb284-4fa3-4671-9012-cc73c1ae3066" name="Default" comment="" />
+    <list default="true" id="34fbb284-4fa3-4671-9012-cc73c1ae3066" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,17 +20,17 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="268">
-                <caret line="78" column="10" lean-forward="false" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="10" />
+              <first_editor relative-caret-position="788">
+                <caret line="189" column="0" lean-forward="true" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
                 <folding>
-                  <marker date="1516231733219" expanded="true" signature="5160:5373" ph="{...}" />
-                  <marker date="1516231733219" expanded="true" signature="5239:5369" ph="{...}" />
-                  <marker date="1516231733219" expanded="true" signature="5891:6086" ph="{...}" />
-                  <marker date="1516231733219" expanded="true" signature="6247:6479" ph="{...}" />
-                  <marker date="1516231733219" expanded="true" signature="6326:6475" ph="{...}" />
-                  <marker date="1516231733219" expanded="true" signature="6819:7041" ph="{...}" />
-                  <marker date="1516231733219" expanded="true" signature="6862:7004" ph="{&quot;photoURL&quot;: user.photoURL...}" />
-                  <marker date="1516231733219" expanded="true" signature="7685:8017" ph="{...}" />
+                  <marker date="1516233367325" expanded="true" signature="5161:5374" ph="{...}" />
+                  <marker date="1516233367325" expanded="true" signature="5240:5370" ph="{...}" />
+                  <marker date="1516233367325" expanded="true" signature="5892:6087" ph="{...}" />
+                  <marker date="1516233367325" expanded="true" signature="6248:6480" ph="{...}" />
+                  <marker date="1516233367325" expanded="true" signature="6327:6476" ph="{...}" />
+                  <marker date="1516233367325" expanded="true" signature="6820:7042" ph="{...}" />
+                  <marker date="1516233367325" expanded="true" signature="6863:7005" ph="{&quot;photoURL&quot;: user.photoURL...}" />
+                  <marker date="1516233367325" expanded="true" signature="7686:8018" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -132,12 +134,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516213737764</updated>
-      <workItem from="1516213741628" duration="3040000" />
+      <workItem from="1516213741628" duration="3375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3040000" />
+    <option name="totallyTimeSpent" value="3375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="817" y="23" width="853" height="1006" extended-state="0" />
@@ -195,17 +197,17 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="268">
-            <caret line="78" column="10" lean-forward="false" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="10" />
+          <first_editor relative-caret-position="788">
+            <caret line="189" column="0" lean-forward="true" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
             <folding>
-              <marker date="1516231733219" expanded="true" signature="5160:5373" ph="{...}" />
-              <marker date="1516231733219" expanded="true" signature="5239:5369" ph="{...}" />
-              <marker date="1516231733219" expanded="true" signature="5891:6086" ph="{...}" />
-              <marker date="1516231733219" expanded="true" signature="6247:6479" ph="{...}" />
-              <marker date="1516231733219" expanded="true" signature="6326:6475" ph="{...}" />
-              <marker date="1516231733219" expanded="true" signature="6819:7041" ph="{...}" />
-              <marker date="1516231733219" expanded="true" signature="6862:7004" ph="{&quot;photoURL&quot;: user.photoURL...}" />
-              <marker date="1516231733219" expanded="true" signature="7685:8017" ph="{...}" />
+              <marker date="1516233367325" expanded="true" signature="5161:5374" ph="{...}" />
+              <marker date="1516233367325" expanded="true" signature="5240:5370" ph="{...}" />
+              <marker date="1516233367325" expanded="true" signature="5892:6087" ph="{...}" />
+              <marker date="1516233367325" expanded="true" signature="6248:6480" ph="{...}" />
+              <marker date="1516233367325" expanded="true" signature="6327:6476" ph="{...}" />
+              <marker date="1516233367325" expanded="true" signature="6820:7042" ph="{...}" />
+              <marker date="1516233367325" expanded="true" signature="6863:7005" ph="{&quot;photoURL&quot;: user.photoURL...}" />
+              <marker date="1516233367325" expanded="true" signature="7686:8018" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
