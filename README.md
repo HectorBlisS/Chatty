@@ -37,7 +37,7 @@ We have heard about servers, databases, security, may be we've heard about devOp
 
 And it's true. )=
 
-![nerdo](https://gph.is/1tMZSQd)
+![nerdo](https://media.giphy.com/media/phGElmSM4P0sg/giphy.gif)
 
 ## Create a Firebase App
 
