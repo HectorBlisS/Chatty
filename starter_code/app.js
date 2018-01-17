@@ -30,6 +30,7 @@ function setUser(){
     )
 }
 
+//send the message
 $('#send_message').click(saveMessage);
 
 //write the save message
