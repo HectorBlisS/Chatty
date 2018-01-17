@@ -31,13 +31,18 @@ In the Pull request name, add your name and last names separated by a dash "-"
 ### Deliverables
 The starter-code provides every resource you need to style your Chat. Please, push every thing you need to make it work properly on GitHub before creating the pull request.
 
-## Introduction: What is a Backend ?
+## Introduction: How hard is to develop a backend?
 
 We have heard about servers, databases, security, may be we've heard about devOps or hostings, heard that if you want to make any website you need a server, you need to be concern about the safety of your data, and we also have heard that to manage a database is hard, is complicated and troubleling, that you need an expert on datascience or backend to ensure your data will be secure, and if you want to learn to make all this we mention you need to be a nerd or some kind of super human and invest several years to learn all the stuff needed to become a backend developer.
 
 And it's true. )=
 
 ![nerdo](https://media.giphy.com/media/phGElmSM4P0sg/giphy.gif)
+
+But wait, we live in the tech era right?, we have seen all this awesome apps everywhere, this spectacular companies like Google that have been release alot of software to make our lives easier right? there is a lot of companies and startups making amazing products that are very techy, for example shazam this company that develop an app that can identify music, movies, advertising, and television shows, based on a short sample played and using the microphone on the device.
+In just one year the Shazam app had more than 100 million monthly active users, and on December 11 of 2017 Shazam was bought by Apple inc and we think: there must be really hard to make an app like this.
+
+But the truth, today there is many tools to accelerate your success, why we use Shazam as an example you will see...
 
 ## Create a Firebase App
 
