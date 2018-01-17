@@ -53,7 +53,7 @@ We are going to use Firebase, Firebase is a backend as a service is one of the G
 * Enter to the [Firebase console](console.firebase.google.com) make sure that you have logged in with any gmail account.
 * Click in the "Add Project" button and set a cool name like "IronhackChat" and choose your country
 * 
-![adding a new firebase project](project.png=300)
+![adding a new firebase project](project.png =300)
 
  
 
