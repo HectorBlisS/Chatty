@@ -8,7 +8,7 @@ After this lesson, you will be able to:
 * Understand the importance of a backend
 * To use serverless services for rapid development
 * How to use Firebase database
-* Use jQuery for make interactive web pacges
+* Use jQuery for make interactive web pages
 * How to publish a webApp
 
 ### Requirements
@@ -18,7 +18,7 @@ After this lesson, you will be able to:
 
 ### Previous knowledge
 * Basic understanding of javascript languaje
-* To understand what a function is and how it works in javascript
+* Understand what a function is and how it works in javascript
 * What is the DOM and how we can select a node
 
 ### Submission
@@ -39,22 +39,22 @@ The starter-code provides every resource you need to style your Chat. Please, pu
 
 ## Introduction: How hard is to develop a backend?
 
-We have heard about servers, databases, security, may be we've heard about devOps or hostings, heard that if you want to make any website you need a server, you need to be concern about the safety of your data, and we also have heard that to manage a database is hard, is complicated and troubleling, that you need an expert on datascience or backend to ensure your data will be secure, and if you want to learn to make all this we mention you need to be a nerd or some kind of super human and invest several years to learn all the stuff needed to become a backend developer.
+We have heard about servers, databases, security, may be we've heard about devOps or hostings, heard that if you want to make any website you need a server, you need to be concern about the safety of your data, and we also have heard that manage a database is hard, is complicated and troubling, that you need an expert on data science or backend to ensure your data will be secure, and if you want to learn to make all this you need to be a nerd or some kind of super human and invest several years to learn all the stuff needed to become a backend developer.
 
 And it's true. )=
 
 ![nerdo](https://media.giphy.com/media/phGElmSM4P0sg/giphy.gif)
 
-But wait, we live in the tech era right?, we have seen all this awesome apps everywhere, this spectacular companies like Google that have been release alot of software to make our lives easier right? there is a lot of companies and startups making amazing products that are very techy, for example shazam this company has develop an app that can identify music, movies, advertising, and television shows, based on a short sample played and using the microphone on the device.
+But wait, we live in the tech era right?, we have seen all this awesome apps everywhere, this spectacular companies like Google that have been released a lot of software to make our lives easier right? there is a lot of companies and startups making amazing products that are very techy, for example shazam this company has develop an app that can identify music, movies, advertising, and television shows, based on a short sample played and using the microphone on the device.
 In just one year the Shazam app had more than 100 million monthly active users, and on December 11 of 2017 Shazam was bought by Apple inc and we think: there must be really hard to make an app like this.
 
 <img src="https://images.sftcdn.net/images/t_optimized,f_auto/p/7557c5a4-96db-11e6-9e0e-00163ec9f5fa/123744902/shazam-screenshot.png" width="300" alt="the shazam app"> 
 
-But the truth, today there is many tools to accelerate your success, and we can make a very powerfull app with very little effort. Why we use Shazam as an example?,  you will see...
+But the truth, today there is many tools to accelerate your success, and we can make a very powerful app with very little effort. Why we use Shazam as an example?, you will see...
 
 ## 1.- Connect our App to a Firebase Project
 
-We are going to use Firebase, Firebase is a backend as a service is one of the Google's tools in the Cloud, and it offers a lot of options to connect our webapps or mobile apps to services in the cloud, services that are a substitution of things you normally need a server (computer in some place in the world), with a backend written in any languaje conditioning for serves like PHP, RUBY, PYTHON, JAVA, C#, GO or many others.
+We are going to use Firebase, Firebase is a backend as a service is one of the Google's tools in the Cloud, and it offers a lot of options to connect our web apps or mobile apps to services in the cloud, services that are a substitution of things you normally need a server (computer in some place in the world), with a backend written in any language conditioning for serves like PHP, RUBY, PYTHON, JAVA, C#, GO or many others.
 
 ### Create the Firebase Project
 
@@ -67,12 +67,11 @@ We are going to use Firebase, Firebase is a backend as a service is one of the G
 
 ### Analize the boilerplate
 
-Open the project folder with sublime text and enter into the `starter_code` folder, once you see all the files, open the index.html and analize the pieces in it.
-There are 3 main pieces.
+Open the project folder with sublime text and enter into the `starter_code` folder, once you see all the files, open the `index.html` and analyze the pieces in it. There are 3 main pieces.
 
 ## 2.- Let's login!
 
-In order to send messages in a chat you need to identify yourself. We are going to let the user make an account into our app and use the data to identify them, but wait! are we have to fulfill this anoing forms?, na!, we are going to use social network login!
+In order to send messages in a chat you need to identify yourself. We are going to let the user make an account into our app and use the data to identify them, but wait! are we have to fulfill this annoying forms?, na!, we are going to use social network login!
 
 ### Activate the login method in Firebase console
 In the Firebase console, inside of the authentication section we clcik the "sign-in method" tab, we choose google, enable it and save.
@@ -172,10 +171,14 @@ firebase.database().ref("chat").on("child_added", function(snap){
     $('.messages-box').scrollTop($('.chat-box').height() + 8000);
 });
 ```
-We are specifying the ref of our database from what we want to listen, and we want to receive any data from this ref when a child is added, the  `child_added` event is the right Firebase tool to achive this, we are using the back quotes for passing the html we need to draw on the page.
+We are specifying the ref of our database from what we want to listen, and we want to receive any data from this ref when a child is added, the  `child_added` event is the right Firebase tool to achieve this, we are using the back quotes for passing the html we need to draw on the page.
 
 ## Conclution
-Firebase is a shortcut to develop an app the fastest, if you are thinking about perfomance and number of clients in real-time, remember shazam and its thousands of users?, well, Shazam is using Firebase.
+Firebase is a shortcut to develop an app the fastest, if you are thinking about performance and number of clients in real-time, remember Shazam and its thousands of users?, well, Shazam is using Firebase.
+
+## Bonus
+You can read the Firebase documentation to learn hot to deploy our app into a public free domain.
+[How to deploy on Firebase](https://firebase.google.com/docs/hosting/deploying?hl=es-419)
 
 ## Extra Resources
 * [What is Firebase?](https://elandroidelibre.elespanol.com/2016/05/firebase-plataforma-desarrollo-android-ios-web.html)
