@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8"/>
+    <!--Bootstrap import-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>IronhackChat</title>
+</head>
+<body>
+
+<!-- First piece Login -->
+    <section class="login-container">
+
+        <div class="card text-center">
+            <div class="card-header">
+                Login
+            </div>
+            <div class="card-body">
+                <img src="https://camo.githubusercontent.com/52d2ff8778b60261533a7dba8dd989c6893a519b/68747470733a2f2f692e696d6775722e636f6d2f315167724e4e772e706e67" alt="ironhack logo">
+                <h5 class="card-title">Para chatear con nosotros debes iniciar sesión</h5>
+                <p class="card-text">No necesitas crear una cuenta, basta con user tu cuenta de Gmail.</p>
+                <a id="login_button" href="#!" class="btn btn-primary">Iniciar Sesión</a>
+            </div>
+            <br>
+            <div class="card-footer text-muted">
+                ¡Bienvenido!
+            </div>
+        </div>
+    </section>
+
+    <section class="container main-container">
+
+<!-- Second piece Users -->
+        <ul class="list-group users-container">
+            <li>
+                <img src="https://avatars2.githubusercontent.com/u/7883990?s=40&v=4" alt="user">
+                <p>Héctor BlisS</p>
+            </li>
+
+            <li>
+                <img src="https://avatars2.githubusercontent.com/u/7883990?s=40&v=4" alt="user">
+                <p>Héctor BlisS</p>
+            </li>
+
+        </ul>
+
+<!-- Third piece ChatBox -->
+        <article class="chat-box">
+            <ul class="list-group messages-box">
+                <li class="list-group-item active">
+                    IronhackChat
+                    <button id="logout_button" class="btn btn-danger" type="button">Cerrar sesión</button>
+                </li>
+                <li class="list-group-item">
+                    <img src="https://avatars2.githubusercontent.com/u/7883990?s=40&v=4" alt="user">
+                    <span>Mensaje muestra</span>
+                </li>
+
+
+            </ul>
+            <div class="message-input">
+                <div class="input-group mb-3">
+                    <input id="message_text" maxlength="40" type="text" class="form-control" placeholder="Write a good chisme today" />
+                    <div class="input-group-append">
+                        <button id="send_message" class="btn btn-outline-secondary" type="button">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+
+    </section>
+
+    <!--Inser the firebase snipet under this line:-->
+
+<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCF2ZZ2fYz9knhpiF1Qd81ebj4DpKbpQvA",
+        authDomain: "ironhackdemo.firebaseapp.com",
+        databaseURL: "https://ironhackdemo.firebaseio.com",
+        projectId: "ironhackdemo",
+        storageBucket: "ironhackdemo.appspot.com",
+        messagingSenderId: "987657664062"
+    };
+    firebase.initializeApp(config);
+</script>
+    <!--Inser the firebase snipet above this line:-->
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+
+</body>
+</html>

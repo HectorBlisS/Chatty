@@ -1,0 +1,56 @@
+.login-container{ /* display none */
+    display: inherit;
+}
+
+.main-container{  /* display none */
+    display: flex;
+}
+
+.users-container{
+    max-height: 600px;
+    overflow-y: scroll;
+}
+
+.users-container li{
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 5px;
+}
+
+.users-container img{
+    border-radius: 50%;
+    max-width: 50px;
+}
+
+
+.chat-box img{
+    border-radius: 50%;
+    max-width: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.messages-box{
+    max-height: 600px;
+    min-width: 423px;
+    overflow-y: scroll;
+    padding-top: 50px;
+}
+
+.messages-box li{
+    display: block;
+}
+
+
+.logged-user img{
+    order: 2;
+}
+
+/*change in case of overwrite*/
+
+.active{
+    position: fixed;
+    width: 423px;
+    top:0;
+}
